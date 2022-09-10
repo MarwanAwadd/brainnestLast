@@ -1,0 +1,132 @@
+*, *::after, *::before{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    background-color: #758D93;
+    border-radius: 13px;
+}
+
+.screen{
+    background-color: #ACC095;
+    min-height: 100px;
+    width: 360px;
+    display: flex;
+    padding: 16px;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-bottom: 16px;
+}
+
+.previousOp{
+    all: unset;
+    color: grey;
+    font-size: 16px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.currentOp{
+    all: unset;
+    color: whitesmoke;
+    font-size: 40px;
+    word-wrap: break-word;
+    word-break: break-all;
+    margin-top: 16px;
+}
+
+.calculatorRow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 8px;
+
+}
+.ACButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    background-color: #ffa33a;
+    width: 177px;
+    height: 85px;
+    border: none;
+    border-radius: 45px;
+    cursor: pointer;
+}
+.detButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    background-color: #d64848;
+    width: 85px;
+    height: 85px;
+    border: none;
+    border-radius: 45px;
+    cursor: pointer;
+}
+.operators{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    background-color: #ffa33a;
+    width: 85px;
+    height: 85px;
+    border: none;
+    border-radius: 45px;
+    cursor: pointer;
+}
+
+.numbers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    background-color: rgb(108, 75, 41);
+    width: 85px;
+    height: 85px;
+    border: none;
+    border-radius: 45px;
+    cursor: pointer;
+}
+.equalButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    background-color: #5ae45a;
+    width: 177px;
+    height: 85px;
+    border: none;
+    border-radius: 45px;
+    cursor: pointer;
+}
+button{
+    transition: opacity 0.2s ease-in-out;
+}
+button:hover{
+    opacity: 0.8;
+}

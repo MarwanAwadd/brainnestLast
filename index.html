@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <container class="calculator">
+        <section class="screen">
+            <figure data-previousOp id="previousOp" class="previousOp"></figure>
+            <figure data-currentOp id="currentOp" class="currentOp"></figure>
+        </section>
+        <section class="calculatorRow">
+            <button type="button" id="ac" data-ac class="ACButton">AC</button>
+            <button type="button" id="delete" data-delete class="detButton">DEL</button>
+            <button type="button" id="div" data-operators class="operators">÷</button>
+        </section>
+        <section class="calculatorRow">
+            <button type="button" id="number-seven" data-numbers class="numbers">7</button>
+            <button type="button" id="number-eight" data-numbers class="numbers">8</button>
+            <button type="button" id="number-nine" data-numbers class="numbers">9</button>
+            <button type="button" id="mul" data-operators class="operators">x</button>
+        </section>
+        <section class="calculatorRow">
+            <button type="button" id="number-four" data-numbers class="numbers">4</button>
+            <button type="button" id="number-five" data-numbers class="numbers">5</button>
+            <button type="button" id="number-six" data-numbers class="numbers">6</button>
+            <button type="button" id="add" data-operators class="operators">+</button>
+        </section>
+        <section class="calculatorRow">
+            <button type="button" id="number-one" data-numbers class="numbers">1</button>
+            <button type="button" id="number-two" data-numbers class="numbers">2</button>
+            <button type="button" id="number-three" data-numbers class="numbers">3</button>
+            <button type="button" id="sub" data-operators class="operators">-</button>
+        </section>
+        <section class="calculatorRow">
+            <button type="button" id="number-dot" data-numbers class="numbers">.</button>
+            <button type="button" id="number-zero" data-numbers class="numbers">0</button>
+            <button type="button" id="equals" data-equals class="equalButton">=</button>
+        </section>
+
+    </container>
+    <script src="script.js"></script>
+</body>
+</html>
